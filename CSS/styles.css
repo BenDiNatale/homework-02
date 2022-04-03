@@ -1,0 +1,140 @@
+
+ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color:rgb(52, 113, 153);
+}
+
+li {
+  float:right;
+}
+
+li a {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-left: 1px solid #bbb;
+}
+
+li a:hover {
+  background-color:rgb(127, 194, 252)
+}
+
+
+h1 {
+  height:50px;
+  width:100%;
+  background-image:url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F6947461.jpg&imgrefurl=https%3A%2F%2Fwallpaperaccess.com%2Fgrey-star&tbnid=RaPqWAWYis0hrM&vet=12ahUKEwjk953P0_b2AhVbq3IEHf5HBL0QMygDegUIARDWAQ..i&docid=uVui9js1L-oOcM&w=1249&h=1280&q=gray%20stars%20background&ved=2ahUKEwjk953P0_b2AhVbq3IEHf5HBL0QMygDegUIARDWAQ);
+  background-size:cover;
+  
+}
+
+
+.profile {
+  background-image:url(https://pickaface.net/gallery/avatar/Opi55c4510b914e7.png);
+  width:215px;
+  height:215px;
+}
+
+
+p {
+  padding:20px;
+  border:30px;
+  background:rgb(52, 113, 153);
+  color:white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display:block;
+}
+
+
+div {
+  display:flex; 
+  flex-wrap:wrap;
+  margin-top:2%;
+}
+
+
+section {
+  display:flex;
+  flex-wrap:wrap;
+  margin-top:2%;
+
+}
+
+
+figcaption {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align:center;
+}
+
+img:hover {
+  opacity: .3;
+}
+
+
+.feature {
+  border:5px solid;
+  color:rgb(127, 194, 252);
+  height:500px;
+ 
+}
+
+
+
+.stock {
+  border: 5px solid;
+  color:rgb(127, 194, 252);
+  height:300px;
+  text-align:center;
+}
+
+.stock img {
+  width:100%;
+}
+
+
+footer p {
+  font-size:20px;
+  color: white;
+  text-align:center;
+  padding:10px;
+  border:10px;
+  background-color:rgb(52, 113, 153);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  text-align:center;
+  font-weight:300px;
+  font-size:30px;
+  color:white;
+  background-color:rgb(52, 113, 153);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+@media screen and (min-width: 600px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width:768px) {
+    main,
+    nav {
+      flex-direction: column; 
+    }
+  }
+  
+  @media screen and (max-width:992px){
+    main, 
+    nav {
+      flex-direction: column;
+    }
+}   
